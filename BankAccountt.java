@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BankAccount{
+public class BankAccountt{
     int accountNumber;
     String accountHolder;
     double balance;
@@ -27,7 +27,7 @@ public class BankAccount{
 
     public static void main(){
         Scanner sc = new Scanner(System.in);
-        BankAccount  account = new BankAccount();
+        BankAccountt  account = new BankAccountt();
         System.out.println("Enter account number : ");
         account.accountNumber = sc.nextInt();
         sc.nextLine();
